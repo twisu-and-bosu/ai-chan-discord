@@ -1,0 +1,11 @@
+# Node Modules
+node_modules
+
+# .env
+.env
+
+# DS Store
+.DS_Store
+
+# Lock Files
+package-lock.json
