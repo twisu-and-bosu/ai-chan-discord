@@ -1,0 +1,28 @@
+{
+  "name": "ai-chan-discord",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node -r dotenv/config src/index.ts",
+    "develop": "ts-node-dev -r dotenv/config src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twisu-and-bosu/ai-chan-discord.git"
+  },
+  "author": "BosEriko <bos.eriko@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.9.3",
+    "axios": "^0.19.2",
+    "discord.js": "^11.4.2",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "ts-node": "^8.6.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.3.3"
+  }
+}
